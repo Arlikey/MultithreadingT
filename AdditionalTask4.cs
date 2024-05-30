@@ -65,7 +65,7 @@ namespace MultithreadingT
             while (true)
             {
                 panel1.Invoke(new Action(() => panel1.Invalidate()));
-                Thread.Sleep(30);
+                Thread.Sleep(50);
             }
         }
 
